@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    color: slateblue;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    background-color: slategrey;
+    box-shadow: 5px 5px 10px slateblue;
+}
+
+.grid-item {
+    border: .8px solid whitesmoke;
+    background-color: white;
+}
+
+.grid-item:hover {
+    background-color: grey;
+}
